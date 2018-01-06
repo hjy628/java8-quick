@@ -1,0 +1,66 @@
+Classfile /home/hjy/桌面/Message.class
+  Last modified 2017-4-25; size 475 bytes
+  MD5 checksum 80e80588e9724cbd6d608460b0d9dd64
+  Compiled from "Message.java"
+public class Message
+  minor version: 0
+  major version: 52
+  flags: ACC_PUBLIC, ACC_SUPER
+Constant pool:
+   #1 = Methodref          #4.#15         // java/lang/Object."<init>":()V
+   #2 = Fieldref           #16.#17        // java/lang/System.out:Ljava/io/PrintStream;
+   #3 = String             #18            // junshan say:Hello World!
+   #4 = Class              #19            // java/lang/Object
+   #5 = Methodref          #20.#21        // java/io/PrintStream.printf:(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;
+   #6 = Class              #22            // Message
+   #7 = Utf8               <init>
+   #8 = Utf8               ()V
+   #9 = Utf8               Code
+  #10 = Utf8               LineNumberTable
+  #11 = Utf8               main
+  #12 = Utf8               ([Ljava/lang/String;)V
+  #13 = Utf8               SourceFile
+  #14 = Utf8               Message.java
+  #15 = NameAndType        #7:#8          // "<init>":()V
+  #16 = Class              #23            // java/lang/System
+  #17 = NameAndType        #24:#25        // out:Ljava/io/PrintStream;
+  #18 = Utf8               junshan say:Hello World!
+  #19 = Utf8               java/lang/Object
+  #20 = Class              #26            // java/io/PrintStream
+  #21 = NameAndType        #27:#28        // printf:(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;
+  #22 = Utf8               Message
+  #23 = Utf8               java/lang/System
+  #24 = Utf8               out
+  #25 = Utf8               Ljava/io/PrintStream;
+  #26 = Utf8               java/io/PrintStream
+  #27 = Utf8               printf
+  #28 = Utf8               (Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;
+{
+  public Message();
+    descriptor: ()V
+    flags: ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: return
+      LineNumberTable:
+        line 1: 0
+
+  public static void main(java.lang.String[]);
+    descriptor: ([Ljava/lang/String;)V
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=3, locals=1, args_size=1
+         0: getstatic     #2                  // Field java/lang/System.out:Ljava/io/PrintStream;
+         3: ldc           #3                  // String junshan say:Hello World!
+         5: iconst_0
+         6: anewarray     #4                  // class java/lang/Object
+         9: invokevirtual #5                  // Method java/io/PrintStream.printf:(Ljava/lang/String;[Ljava/lang/Object;)Ljava/io/PrintStream;
+        12: pop
+        13: return
+      LineNumberTable:
+        line 3: 0
+        line 4: 13
+}
+SourceFile: "Message.java"
